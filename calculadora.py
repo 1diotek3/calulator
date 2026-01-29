@@ -14,16 +14,20 @@ while True:
 
     if valor == 1:
         print("la suma es",num1+num2)
-        break;
+        break
     if valor == 2:
         print("la resta es",num1-num2)
-        break;
+        break
     if valor == 3:
         print("la multiplicacion es",num1*num2)
-        break;
+        break
     if valor == 4:
         print("la division es",num1/num2)
-        break;
+        break
+    if valor == 5:
+        num3 = int(input("Ingrese su tercer número"))
+        print("la suma de 3 valores es  es",num1+num2+num3)
+        break
     else:
         print("Opcion incorrecta")
-        break;
+        break
